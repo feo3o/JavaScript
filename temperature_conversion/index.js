@@ -17,9 +17,9 @@ function conversion()
         placeholder.textContent = temperatura.toFixed(1) + "°F";
     }
     else if (f.checked)
-        {
-            temperatura = Number(text.value);
-            temperatura = (temperatura - 32) / 1.8;
-            placeholder.textContent = temperatura.toFixed(1) + "°C";
-        }
+    {
+        temperatura = Number(text.value);
+        temperatura = (temperatura - 32) / 1.8;
+        placeholder.textContent = temperatura.toFixed(1) + "°C";
+    }
 }
